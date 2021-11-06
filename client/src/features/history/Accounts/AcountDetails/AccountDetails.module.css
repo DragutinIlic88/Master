@@ -1,0 +1,95 @@
+.AccountContent {
+  display: flex;
+  padding: 15px 20px;
+  justify-content: space-between;
+  border: 5px double black;
+  border-radius: 10px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.FirstColumn,
+.SecondColumn {
+  width: 40%;
+}
+
+.AccountNumber,
+.AccountType,
+.AccountDate,
+.AccountState,
+.AccountDetails {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 30px 30px;
+  overflow: hidden;
+}
+
+.AccountNumber {
+  word-wrap: break-word;
+}
+
+.AccountType {
+  margin-top: 15px;
+}
+
+.AccountDate {
+  margin-top: 15px;
+}
+
+.AccountState {
+  margin-top: 15px;
+}
+
+.AccountStateValue > span {
+  margin-left: 5px;
+}
+
+.AccountLabel {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.AccountNumberValue,
+.AccountTypeValue,
+.AccountDateValue,
+.AccountDetailsValue,
+.AccountStateValue {
+  font-size: 18px;
+  font-style: oblique;
+}
+
+.PositionButton {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.HideAccountContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+  font-weight: 800;
+  text-transform: uppercase;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 150px;
+  height: 60px;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(47, 47, 147, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  cursor: pointer;
+}
+
+.HideAccountContent:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(47, 47, 147, 1) 0%,
+    rgba(0, 212, 255, 1) 35%,
+    rgba(2, 0, 36, 1) 100%
+  );
+}

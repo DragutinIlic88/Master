@@ -1,0 +1,120 @@
+.PaymentSummary {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 20px;
+  justify-content: center;
+  align-items: center;
+  border: 5px double black;
+  border-radius: 10px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.PaymentSummeryHeader {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(47, 47, 147, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  padding: 10px 15px;
+  margin-bottom: 30px;
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  font-style: oblique;
+}
+
+.PaymentSummaryDetails {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 15px 10px;
+  margin-bottom: 30px;
+}
+
+.Row {
+  display: flex;
+}
+
+.Label {
+  font-size: 22px;
+  font-weight: 600;
+  margin-right: 15px;
+  font-style: oblique;
+}
+
+.Value {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.NavigationWrapper {
+  display: flex;
+}
+
+.Close {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+  font-weight: 800;
+  text-transform: uppercase;
+  box-shadow: 3px 3px 5px 6px #ccc;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 150px;
+  height: 60px;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(47, 47, 147, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.Close:hover {
+  opacity: 0.7;
+  box-shadow: 3px 3px 5px 6px rgb(48, 41, 41);
+}
+
+.Submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+  font-weight: 800;
+  text-transform: uppercase;
+  box-shadow: 3px 3px 5px 6px #ccc;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 150px;
+  height: 60px;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(47, 47, 147, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  cursor: pointer;
+}
+
+.Submit:hover {
+  opacity: 0.7;
+  box-shadow: 3px 3px 5px 6px rgb(48, 41, 41);
+}
+
+.ErrorContent {
+  color: red;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.SuccessContent {
+  color: green;
+  font-size: 30px;
+  font-weight: 700;
+  text-shadow: 3px 3px 5px 6px rgb(48, 41, 41);
+}

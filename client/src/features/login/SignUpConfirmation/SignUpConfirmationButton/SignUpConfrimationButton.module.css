@@ -1,0 +1,36 @@
+.ButtonStyle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: cursive;
+  font-size: 26px;
+  color: white;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  text-align: center;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(47, 47, 147, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  cursor: pointer;
+  transition: transform 3s;
+}
+
+.ButtonStyle:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 212, 255, 1) 0%,
+    rgba(47, 47, 147, 1) 65%,
+    rgba(2, 0, 36, 1) 100%
+  );
+
+  transform: rotateY(360deg);
+}
+
+.ButtonStyle:active {
+  background: rgba(0, 212, 255, 1);
+}

@@ -1,0 +1,55 @@
+.NavigationBarHelp {
+  border-top: 5px double black;
+  height: 70px;
+  width: 300px;
+  min-width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.Phone {
+  height: 65px;
+  width: 65px;
+  margin-right: 20px;
+  margin-top: 2px;
+  cursor: pointer;
+}
+
+.Phone > img {
+  height: 65px;
+  width: 65px;
+}
+
+.Phone > img:hover {
+  opacity: 0.7;
+}
+
+.Letter {
+  margin-right: 20px;
+  margin-top: 2px;
+  height: 65px;
+  width: 65px;
+  cursor: pointer;
+}
+
+.Letter > img {
+  height: 65px;
+  width: 65px;
+}
+
+.Letter > img:hover {
+  opacity: 0.7;
+}
+
+.InfoSegmentWrapper {
+  position: absolute;
+  bottom: 105px;
+  left: 70px;
+}
+
+.EmailInfoSegmentWrapper {
+  position: absolute;
+  bottom: 105px;
+  left: 160px;
+}

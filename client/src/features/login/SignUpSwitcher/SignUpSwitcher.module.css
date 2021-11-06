@@ -1,0 +1,32 @@
+.SignUpSwitcherLabel {
+  font-size: 16px;
+}
+
+.SignUpSwitcherLink {
+  font-style: oblique;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.SignUpSwitcherLink:hover {
+  color: turquoise;
+}
+
+.SignUpSwitcher {
+  height: 100%;
+  width: 100%;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(47, 47, 147, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}

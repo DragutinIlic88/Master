@@ -1,0 +1,10 @@
+.LanguageList {
+  height: 50px;
+}
+
+.ChangeLanguage {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  display: inline-block;
+  width: 150px;
+}

@@ -1,0 +1,109 @@
+.SubmitButton {
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 22px;
+  font-style: oblique;
+  font-weight: 600;
+  display: inline-block;
+  font-family: Montserrat;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px gray;
+  padding: 0.5em 2em;
+  border: 2px solid d3e9f0;
+  -webkit-transition: 0.02s 0.2s cubic-bezier(0.1, 0, 0.1, 1);
+  transition: 0.02s 0.2s cubic-bezier(0.1, 0, 0.1, 1);
+  background-color: #d3e9f0; /*rgba(2, 0, 36, 1); */
+  z-index: -2;
+  color: rgba(2, 0, 36, 1);
+  text-align: center;
+  white-space: nowrap;
+  width: 110px;
+}
+
+.DisabledSubmitButton {
+  pointer-events: none;
+  opacity: 0.7;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 22px;
+  font-style: oblique;
+  font-weight: 600;
+  display: inline-block;
+  font-family: Montserrat;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px gray;
+  padding: 0.5em 2em;
+  border: 2px solid d3e9f0;
+  -webkit-transition: 0.02s 0.2s cubic-bezier(0.1, 0, 0.1, 1);
+  transition: 0.02s 0.2s cubic-bezier(0.1, 0, 0.1, 1);
+  background-color: #ccc; /*rgba(2, 0, 36, 1); */
+  z-index: -2;
+  color: rgba(2, 0, 36, 1);
+  text-align: center;
+  white-space: nowrap;
+  width: 110px;
+}
+
+.SubmitButton[disabled] {
+  pointer-events: none;
+  opacity: 0.7;
+}
+
+.SubmitButton:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: rgba(0, 212, 255, 1);
+  border-radius: 5px;
+  -webkit-transition: 0.3s 0.2s cubic-bezier(0.1, 0, 0.1, 1),
+    left 0.3s cubic-bezier(0.1, 0, 0.1, 1);
+  transition: 0.3s 0.2s cubic-bezier(0.1, 0, 0.1, 1),
+    left 0.3s cubic-bezier(0.1, 0, 0.1, 1);
+  z-index: -1;
+}
+
+.SubmitButton:after {
+  content: "";
+  display: inline-block;
+  background-image: url("../../../../assets/images/right-arrow-icon.png");
+  position: absolute;
+  top: 0;
+  left: calc(100% - 3em);
+  right: 3em;
+  bottom: 0;
+  background-size: 1.5em;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-transition: right 0.3s cubic-bezier(0.1, 0, 0.1, 1);
+  transition: right 0.3s cubic-bezier(0.1, 0, 0.1, 1);
+}
+
+.SubmitButton:hover {
+  padding: 0.5em 3.5em 0.5em 0.5em;
+}
+
+.SubmitButton:hover:before {
+  left: calc(100% - 3em);
+  right: 0;
+  -webkit-transition: 0.3s cubic-bezier(0.1, 0, 0.1, 1),
+    left 0.3s 0.2s cubic-bezier(0.1, 0, 0.1, 1);
+  transition: 0.3s cubic-bezier(0.1, 0, 0.1, 1),
+    left 0.3s 0.2s cubic-bezier(0.1, 0, 0.1, 1);
+}
+
+.SubmitButton:hover:after {
+  right: 0;
+  -webkit-transition: right 0.3s 0.2s cubic-bezier(0.1, 0, 0.1, 1);
+  transition: right 0.3s 0.2s cubic-bezier(0.1, 0, 0.1, 1);
+}

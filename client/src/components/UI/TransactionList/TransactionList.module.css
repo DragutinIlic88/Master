@@ -1,0 +1,29 @@
+.TransactionList {
+  width: 100%;
+  list-style: none;
+  list-style-position: inside;
+  padding-left: 0;
+  height: 100%;
+  margin-top: 15px;
+}
+
+.Message {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.ErrorMessage {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: red;
+}

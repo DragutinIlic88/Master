@@ -1,0 +1,55 @@
+.LoanItem {
+  border-bottom: 1px solid black;
+  font-family: "Ubuntu", sans-serif;
+  height: 20%;
+  cursor: pointer;
+}
+
+.LoanItem:last-child {
+  border-style: none;
+}
+
+.LoanItem:hover {
+  opacity: 0.7;
+  background-color: rgba(0, 212, 255, 1);
+  color: white;
+}
+
+.FirstRow {
+  padding-top: 5px;
+  margin-left: 5%;
+  width: 90%;
+  display: flex;
+  font-weight: 700;
+  font-size: 20px;
+  justify-content: space-between;
+}
+
+.ItemName {
+  width: 35%;
+  min-width: 250px;
+}
+
+.ItemAmount {
+  width: 25%;
+  min-width: 150px;
+}
+
+.ItemAmount > span {
+  margin-left: 5px;
+}
+
+.ItemStatus {
+  width: 15%;
+  min-width: 100px;
+}
+
+.ItemDate {
+  margin-top: 10px;
+  margin-left: 5%;
+  margin-bottom: 5px;
+  width: 90%;
+  font-style: oblique;
+  font-weight: 500;
+  font-size: 16px;
+}

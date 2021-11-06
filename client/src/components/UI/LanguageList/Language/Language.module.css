@@ -1,0 +1,32 @@
+.Languge {
+  display: inline-block;
+  font-family: cursive;
+  font-size: 18px;
+  color: white;
+  width: 50px;
+  border-radius: 5px;
+  margin-left: 10px;
+  text-align: center;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(47, 47, 147, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  cursor: pointer;
+  padding: 2px 5px;
+}
+
+.Languge:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 212, 255, 1) 0%,
+    rgba(47, 47, 147, 1) 65%,
+    rgba(2, 0, 36, 1) 100%
+  );
+}
+
+.Languge:active {
+  background: rgba(0, 212, 255, 1);
+}

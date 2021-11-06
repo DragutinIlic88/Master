@@ -1,0 +1,45 @@
+.TransactionItem {
+  border-bottom: 1px solid black;
+  font-family: "Ubuntu", sans-serif;
+  height: 20%;
+}
+
+.Clickable {
+  cursor: pointer;
+}
+
+.Clickable:hover {
+  opacity: 0.7;
+}
+
+.TransactionItem:last-child {
+  border-style: none;
+}
+
+.FirstRow {
+  margin-left: 5%;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.TransactionItemName {
+}
+
+.TransactionItemAmount {
+}
+
+.TransactionItemAmount > span {
+  margin-left: 5px;
+}
+
+.TransactionItemDate {
+  margin-top: 5px;
+  margin-left: 5%;
+  width: 90%;
+  font-style: oblique;
+  font-weight: 500;
+  font-size: 16px;
+}

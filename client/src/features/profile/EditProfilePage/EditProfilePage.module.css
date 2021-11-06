@@ -1,0 +1,91 @@
+.EditProfilePage {
+  border: 5px double black;
+  border-radius: 10px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.Header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-size: 30px;
+  font-weight: 700;
+  font-style: oblique;
+}
+
+.Content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: 5% 15%;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.Label {
+  margin-left: 3%;
+  font-size: 22px;
+  font-weight: 700;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.ProceedDiv {
+  display: flex;
+}
+
+.Button {
+  margin-left: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 22px;
+  font-weight: 800;
+  text-transform: uppercase;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 150px;
+  height: 50px;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(47, 47, 147, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  cursor: pointer;
+}
+
+.Button:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(47, 47, 147, 1) 0%,
+    rgba(0, 212, 255, 1) 35%,
+    rgba(2, 0, 36, 1) 100%
+  );
+}
+
+.Input {
+  border: 2px solid black;
+  background-color: #d1d1d1;
+  border-radius: 10px;
+  margin-left: 3%;
+  height: 50px;
+  width: 310px;
+  font-size: 30px;
+}
+
+.Error {
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  font-size: 22px;
+  font-weight: 600;
+}

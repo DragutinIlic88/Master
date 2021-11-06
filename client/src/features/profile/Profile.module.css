@@ -1,0 +1,130 @@
+.Profile {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10%;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+  height: 80%;
+}
+
+.ProfileErrorMessage{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10%;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+  color: red;
+  text-align: center;
+  padding: 10% 0;
+  font-size: 26px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.UserName {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.ProfileImageDiv {
+  margin-top: 25px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ProfileImageDiv > input {
+  display: none;
+}
+
+.ProfileImage {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.ProfileImage:hover {
+  opacity: 0.7;
+}
+
+.SaveImage {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  padding: 5px;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.SaveImage:hover {
+  opacity: 0.7;
+}
+
+.UserNameDiv {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  font-style: oblique;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.UserInfo {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.UserInfo > div {
+  height: 50px;
+  border-bottom: 2px solid gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: grey;
+}
+
+.ProfileData {
+  display: flex;
+}
+
+.Data {
+  height: 30px;
+  padding-top: 3px;
+}
+.EditDiv {
+  margin-left: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+.EditImg {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.EditImg:hover {
+  opacity: 0.7;
+}

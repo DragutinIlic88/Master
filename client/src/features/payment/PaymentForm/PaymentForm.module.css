@@ -1,0 +1,183 @@
+.PaymentForm {
+  width: 100%;
+  min-width: 712px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+  margin: 10% 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.InputContent {
+  width: 90%;
+  border: 5px double black;
+  margin: 25px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.InputContent input::-webkit-outer-spin-button,
+.InputContent input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.InputContent input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.Label {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: oblique;
+}
+
+.BeneficiaryCustomer {
+  box-sizing: border-box;
+  resize: none;
+  width: 300px;
+  height: 100px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px;
+  margin-top: 5px;
+  box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+.BeneficiaryCustomer:focus {
+  outline: none !important;
+  border: 2px solid rgba(0, 212, 255, 1);
+}
+
+.BeneficiaryCustomerAccount {
+  box-sizing: border-box;
+  width: 300px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-left: 0;
+  font-size: 14px;
+  font-weight: 600;
+  box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+.BeneficiaryCustomerAccount:focus {
+  border: 2px solid rgba(0, 212, 255, 1);
+}
+
+.PaymentAmount {
+  box-sizing: border-box;
+  width: 300px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-left: 0;
+  font-size: 14px;
+  font-weight: 600;
+  box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+.PaymentAmount:focus {
+  border: 2px solid rgba(0, 212, 255, 1);
+}
+
+.ModelReferenceWrapper {
+  display: flex;
+}
+
+.Model {
+  box-sizing: border-box;
+  width: 50px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-left: 0;
+  font-size: 14px;
+  font-weight: 600;
+  box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+.Model:focus {
+  border: 2px solid rgba(0, 212, 255, 1);
+}
+
+.Reference {
+  box-sizing: border-box;
+  width: 200px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-left: 0;
+  font-size: 14px;
+  font-weight: 600;
+  box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+.Reference:focus {
+  border: 2px solid rgba(0, 212, 255, 1);
+}
+
+.PaymentCode {
+  box-sizing: border-box;
+  width: 50px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-left: 0;
+  font-size: 14px;
+  font-weight: 600;
+  box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+.PaymentCode:focus {
+  border: 2px solid rgba(0, 212, 255, 1);
+}
+
+.PaymentPurpose {
+  box-sizing: border-box;
+  resize: none;
+  width: 300px;
+  height: 100px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px;
+  margin-top: 5px;
+  box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+.PaymentPurpose:focus {
+  outline: none !important;
+  border: 2px solid rgba(0, 212, 255, 1);
+}
+
+.SubmitButtonWrapper > input {
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.SubmitButtonWrapper > input:hover {
+  opacity: 0.7;
+}
+
+.Error {
+  margin-top: 5px;
+  box-sizing: border-box;
+  height: 30px;
+  color: red;
+}

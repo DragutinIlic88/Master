@@ -1,0 +1,101 @@
+.BackgroundContainer {
+  background-image: url("../../../assets/images/login-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.TitleWrapper {
+  height: 11vh;
+  width: 60vh;
+  position: fixed;
+  left: 50%;
+  top: 5vh;
+  transform: translate(-50%, 0);
+  animation: moveFromTop 3s ease-in-out;
+}
+
+.MoveFromTop {
+  animation: moveFromTop1 3s ease-in-out;
+}
+
+@keyframes moveFromTop {
+  0% {
+    top: -11vh;
+  }
+  100% {
+    top: 5vh;
+  }
+}
+
+@keyframes moveFromTop1 {
+  0% {
+    top: -11vh;
+  }
+  100% {
+    top: 5vh;
+  }
+}
+
+.CenteredContent {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  left: 50%;
+  top: 50%;
+  height: 40vh;
+  width: 60vh;
+  background-color: white;
+  transform: translate(-50%, -50%);
+  box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 10px 100px /120px;
+}
+
+.AnimateFromLeft {
+  animation-name: moveFromLeft;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes moveFromLeft {
+  0% {
+    left: 0%;
+    transform: translate(-100%, -50%);
+  }
+  100% {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.AnimateFromRight {
+  animation-name: moveFromRight;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes moveFromRight {
+  0% {
+    left: 100%;
+    transform: translate(0%, -50%);
+  }
+  100% {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.Label {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.ButtonsPostion {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}

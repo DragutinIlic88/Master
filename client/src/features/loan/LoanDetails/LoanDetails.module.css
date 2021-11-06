@@ -1,0 +1,155 @@
+.LoanContent {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Summary {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  padding: 15px 20px;
+  justify-content: space-between;
+  border: 5px double black;
+  border-radius: 10px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.FirstColumn,
+.SecondColumn {
+  width: 40%;
+}
+
+.Name,
+.AccountNumber,
+.Type,
+.CreationDate,
+.EndingDate,
+.TotalAmount,
+.Status,
+.ParticipationAmount,
+.RemainingAmount,
+.DebtAmount,
+.PaymentDeadlineDate {
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 15px 10px;
+  overflow: hidden;
+  min-width: 306px;
+}
+
+.AccountNumber {
+  margin-top: 15px;
+}
+
+.Type {
+  margin-top: 15px;
+}
+
+.CreationDate {
+  margin-top: 15px;
+}
+
+.EndingDate {
+  margin-top: 15px;
+}
+
+.ParticipationAmount {
+  margin-top: 15px;
+}
+
+.ParticipationAmountValue > span {
+  margin-left: 5px;
+}
+
+.TotalAmount {
+  margin-top: 15px;
+}
+
+.TotalAmountValue > span {
+  margin-left: 5px;
+}
+
+.RemainingAmount {
+  margin-top: 15px;
+}
+
+.RemainingAmountValue > span {
+  margin-left: 5px;
+}
+
+.DebtAmount {
+  margin-top: 15px;
+}
+
+.DebtAmountValue > span {
+  margin-left: 5px;
+}
+
+.PaymentDeadlineDate {
+  margin-top: 15px;
+}
+
+.Label {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.AccountLabel {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.NameValue,
+.AccountNumberValue,
+.TypeValue,
+.CreationDateValue,
+.EndingDateValue,
+.StatusValue,
+.ParticipationAmountValue,
+.RemainingAmountValue,
+.DebtAmountValue,
+.PaymentDeadlineDateValue {
+  font-size: 16px;
+  font-style: oblique;
+}
+
+.PositionButton {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.HideContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+  font-weight: 800;
+  text-transform: uppercase;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 150px;
+  height: 60px;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(47, 47, 147, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  cursor: pointer;
+}
+
+.HideContent:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(47, 47, 147, 1) 0%,
+    rgba(0, 212, 255, 1) 35%,
+    rgba(2, 0, 36, 1) 100%
+  );
+}

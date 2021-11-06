@@ -1,0 +1,122 @@
+.LoginContent {
+  background-image: url("../../assets/images/login-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  font-size: 18px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.TitleWrapper {
+  height: 11vh;
+  width: 60vh;
+  position: fixed;
+  left: 50%;
+  top: 5vh;
+  transform: translate(-50%, 0);
+}
+
+.LoaderWrapper {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.LoginInfo {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  height: 60vh;
+  width: 40vh;
+  background-color: white;
+  transform: translate(-50%, -50%);
+  box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 10px 100px /120px;
+}
+
+.SignUpInfo {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  height: 60vh;
+  width: 80vh;
+  background-color: white;
+  transform: translate(-50%, -50%);
+  box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 10px 100px /120px;
+}
+
+.LanguageListPosition {
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.TwoRows {
+  display: flex;
+  flex-direction: row;
+  height: 60%;
+}
+
+.FirstRow {
+  width: 48%;
+}
+
+.SecondRow {
+  margin-left: 4%;
+  width: 48%;
+}
+
+.EmailWrapper {
+  margin: 10% 5% 0 5%;
+}
+
+.PasswordWrapper {
+  margin: 10% 5% 0 5%;
+}
+
+.SubmitWrapper {
+  margin-top: 10%;
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.Error {
+  color: red;
+  margin-top: 5%;
+  margin-left: 5%;
+  animation: blinker 3s linear infinite;
+  white-space: pre-line;
+}
+
+.SignUpError {
+  color: red;
+  margin-top: 30%;
+  margin-left: 5%;
+  animation: blinker 3s linear infinite;
+  width: 70%;
+  white-space: pre-line;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.SignUpSwitcherWrapper {
+  color: white;
+  position: absolute;
+  top: 80%;
+  left: 5%;
+  width: 90%;
+  height: 9%;
+}
+
+.SignInSwitcherWrapper {
+  position: relative;
+  top: 5%;
+  left: 25%;
+  width: 50%;
+  height: 9%;
+}

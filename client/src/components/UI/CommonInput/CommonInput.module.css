@@ -1,0 +1,71 @@
+.CommonInput {
+  width: 100%;
+  height: 145px;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(47, 47, 147, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.CommonInput[disabled] {
+  pointer-events: none;
+  opacity: 0.7;
+}
+
+.LabelText {
+  display: block;
+  font-size: 14px;
+  color: white;
+  font-weight: 700;
+  margin-top: 10px;
+  width: 90%;
+}
+
+.CommonInput > input {
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  color: #444;
+  line-height: 1.3;
+  padding: 0.6em 1.4em 0.5em 0.8em;
+  box-sizing: border-box;
+  margin: 10px;
+  width: 90%;
+  border: 1px solid #aaa;
+  box-shadow: 0 1px 0 1px rgba(0, 0, 0, 0.04);
+  border-radius: 0.5em;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #fff;
+}
+
+.CommonInput > input:hover {
+  border-color: #888;
+}
+
+.CommonInput > input:focus {
+  border-color: #aaa;
+  box-shadow: 0 0 1px 3px rgba(59, 153, 252, 0.7);
+  box-shadow: 0 0 0 3px -moz-mac-focusring;
+  color: #222;
+  outline: none;
+}
+
+.Error {
+  display: block;
+  padding: 0px 10px;
+  color: red;
+  font-size: 14px;
+  font-weight: 500;
+  text-shadow: 4px 2px 5px black;
+  width: 90%;
+}

@@ -1,0 +1,97 @@
+.CenteredContent {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  left: 50%;
+  top: 50%;
+  height: 40vh;
+  width: 60vh;
+  background-color: white;
+  transform: translate(-50%, -50%);
+  box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 10px 100px /120px;
+}
+
+.AnimateFromLeft {
+  animation-name: moveFromLeft;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes moveFromLeft {
+  0% {
+    left: 0%;
+    transform: translate(-100%, -50%);
+  }
+  100% {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.AnimateFromRight {
+  animation-name: moveFromRight;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes moveFromRight {
+  0% {
+    left: 100%;
+    transform: translate(0%, -50%);
+  }
+  100% {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.InsertOtp {
+  width: 80%;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 700;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.ErrorToken {
+  color: red;
+}
+
+.InsertOTPDiv {
+  border: 1px solid gray;
+  border-radius: 10px;
+  height: 25%;
+  width: 80%;
+  padding-top: 12px;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(47, 47, 147, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.InsertOTPInput {
+  border: 3px solid black;
+  border-radius: 10px;
+  height: 45px;
+  width: 30%;
+  margin-left: 35%;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.InsertOTPInput::placeholder {
+  font-size: 40px;
+  color: rgba(47, 47, 147, 1);
+}
+
+.SubmitWrapper {
+  margin-left: -30%;
+  margin-top: -5%;
+}

@@ -1,0 +1,83 @@
+input,
+label > span,
+label {
+  font-family: "Ubuntu", sans-serif;
+  display: block;
+  margin: 10px;
+  padding: 5px;
+  border: none;
+  font-size: 10px;
+}
+
+input:focus {
+  outline: 0;
+}
+
+input.message {
+  font-size: 18px;
+  font-weight: 200;
+  margin: 0;
+  border: none;
+  width: 80%;
+  background: rgba(0, 0, 0, 0);
+  transition: padding-top 0.2s ease, margin-top 0.2s ease;
+  overflow-x: hidden; /* Hack to make "rows" attribute apply in Firefox. */
+}
+
+/* Underline and Placeholder */
+
+input.message + label {
+  display: block;
+  position: relative;
+  white-space: nowrap;
+  padding: 0;
+  margin: 0;
+  width: 80%;
+  border-top: 1px solid red;
+  -webkit-transition: width 0.4s ease;
+  transition: width 0.4s ease;
+  height: 0px;
+}
+
+input.message:focus + label {
+  width: 100%;
+}
+
+input.message:focus,
+input.message:valid {
+  padding-top: 5px;
+}
+
+input.message:focus + label > span,
+input.message:valid + label > span {
+  top: -60px;
+  font-size: 22px;
+  color: #333;
+}
+
+input.message:valid + label {
+  border-color: green;
+}
+
+input.message:invalid {
+  box-shadow: none;
+}
+
+input.message:not(:placeholder-shown) + label > span {
+  top: -60px;
+  font-size: 22px;
+  color: #333;
+}
+
+input.message + label > span {
+  font-weight: 300;
+  margin: 0;
+  position: absolute;
+  color: #8f8f8f;
+  font-size: 22px;
+  top: -38px;
+  left: 0px;
+  z-index: -1;
+  -webkit-transition: top 0.2s ease, font-size 0.2s ease, color 0.2s ease;
+  transition: top 0.2s ease, font-size 0.2s ease, color 0.2s ease;
+}

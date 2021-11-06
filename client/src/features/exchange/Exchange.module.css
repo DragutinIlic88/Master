@@ -1,0 +1,226 @@
+.Exchange {
+  width: 80%;
+  min-width: 646px;
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-family: "Ubuntu", sans-serif;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.ExchangeHeader {
+  width: 100%;
+  height: 50px;
+  border-bottom: 5px double black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 27px;
+  font-style: oblique;
+  font-weight: 700;
+}
+
+.ExchangeForm {
+  margin-top: 25px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Resource {
+  margin-top: 25px;
+  font-size: 22px;
+  font-style: oblique;
+  font-weight: 700;
+}
+
+.Resource > span:last-child {
+  margin-left: 5px;
+}
+
+.AmountCurrencyDiv {
+  margin-top: 15px;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.CommonInputWrapper {
+  width: 60%;
+}
+
+.FeeInfoContent {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.FeeInfo {
+  width: 60%;
+  min-width: 520px;
+  margin-right: 25px;
+}
+
+.Info {
+  margin: 25px 0;
+  font-size: 22px;
+  font-style: oblique;
+  font-weight: 700;
+}
+
+.NavigationPart {
+  width: 25%;
+  min-width: 220px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.Continue {
+  width: 20%;
+  min-width: 150px;
+  max-width: 200px;
+  height: 50px;
+  min-height: 30px;
+  max-height: 60px;
+  margin: 15px 0;
+}
+
+.Back {
+  width: 20%;
+  min-width: 150px;
+  max-width: 200px;
+  height: 50px;
+  min-height: 30px;
+  max-height: 60px;
+  margin: 15px 0 15px 15px;
+}
+
+.ConfirmExchange {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 20px;
+  justify-content: center;
+  align-items: center;
+  border: 5px double black;
+  border-radius: 10px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.ExchangeSuccess {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(47, 47, 147, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  padding: 10px 15px;
+  margin-bottom: 30px;
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  font-style: oblique;
+}
+
+.ExchangeConfirmAccount {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.ExchangeConfirmFundsRemoved {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.ExchangeConfirmAccountTo {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.ExchangeConfirmFundsAdded {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.ExchangeConfirmRate {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.ExchangeConfirmInfo {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 15px 10px;
+  margin-bottom: 30px;
+}
+
+.HideConfirmExchange {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+  font-weight: 800;
+  text-transform: uppercase;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 150px;
+  height: 60px;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(47, 47, 147, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  cursor: pointer;
+}
+.CurrenciesError{
+  color: red;
+  text-align: center;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.AccountsError{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%; 
+  font-size: 18px;
+  font-weight: 600;
+  color: red;
+}
+
+.FeeInfoErrorWrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: red;
+}
+
+.ExchangeError{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%; 
+  font-size: 18px;
+  font-weight: 600;
+  color: red;
+}

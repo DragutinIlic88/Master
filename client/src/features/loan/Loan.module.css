@@ -1,0 +1,68 @@
+.Contariner {
+  box-sizing: border-box;
+  width: 80%;
+  min-width: 646px;
+  margin-left: 10%;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.Navigation {
+  margin-top: 5%;
+  border-bottom: 5px double black;
+}
+
+.Navigation > ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.NavItem {
+  /* margin-right: 10px; */
+  border: 2px solid black;
+  border-bottom: none;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 5px 10px;
+  background-color: white;
+}
+
+.NavItem:hover {
+  opacity: 0.7;
+  background-color: rgba(0, 212, 255, 1);
+}
+
+.Active {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(47, 47, 147, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.Link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.Link:hover {
+  color: white;
+}
+
+.Active > .Link {
+  color: white;
+}
+
+.Loan {
+  min-width: 646px;
+  margin-top: 5%;
+}
+
+.NewLoan {
+  min-width: 646px;
+  margin-top: 5%;
+}

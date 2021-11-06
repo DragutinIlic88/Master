@@ -1,0 +1,28 @@
+.NavigationBarLogo {
+  width: 100%;
+  height: 70px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.LogoImageDiv {
+  height: 100%;
+  width: 45%;
+}
+
+.LogoImage {
+  width: 100%;
+}
+
+.LogoTitle {
+  padding-left: 10%;
+  width: 55%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 21px;
+  font-weight: 700;
+  font-style: oblique;
+  text-shadow: 2px 2px 4px gray;
+}

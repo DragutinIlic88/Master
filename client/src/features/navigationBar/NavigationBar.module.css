@@ -1,0 +1,13 @@
+.NavigationBar {
+  position: fixed;
+  top: 0px;
+  z-index: 5;
+  border-right: 5px double black;
+  width: 300px;
+  min-width: 300px;
+  height: 100vh;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
