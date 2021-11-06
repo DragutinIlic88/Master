@@ -32,3 +32,4 @@ yarn-error.log*
 /server/**/.vs/
 /server/OnlineBankingWebApi/internallog.txt
 /server/OnlineBankingWebApi/Migrations/
+/server/OnlineBankingWebApi/snapshots/
