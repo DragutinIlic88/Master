@@ -1,0 +1,34 @@
+#client side ignored files
+
+#dependencies
+/client/node_modules
+/client/.pnp.js
+.pnp.js
+
+#testing
+/coverage
+
+#production
+/build
+
+#misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+#server side ignored files
+
+#production
+/server/**/obj/
+/server/**/bin/
+
+#development environment
+/server/**/.vs/
+/server/OnlineBankingWebApi/internallog.txt
+/server/OnlineBankingWebApi/Migrations/
